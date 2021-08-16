@@ -6,7 +6,7 @@
   "scripts": {
     "start": "sass ./scss/app.scss ./css/style.css",
     "minify": "sass ./scss/app.scss ./css/style.css --style compressed",
-    "watch" : "sass --watch ./scss/app.scss:./css/style.css"
+    "watch": "sass --watch ./scss/app.scss:./css/style.css"
   },
   "keywords": [],
   "author": "",

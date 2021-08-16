@@ -1,3 +1,30 @@
 body {
   background: red;
+  color: white;
+}
+
+.header .header-top {
+  margin: 12px;
+}
+
+.header .header-top .header-controls {
+  font-size: 12px;
+}
+
+.header {
+  .header-top {
+    margin: 12px;
+
+    .header-controls {
+      font-size: 12px;
+    }
+  }
+
+  .header-bottom {
+    nav {
+      ul {
+        margin: 12px;
+      }
+    }
+  }
 }
