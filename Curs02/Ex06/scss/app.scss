@@ -2,10 +2,46 @@
   display: flex;
   justify-content: space-between;
   margin: 16px 0;
+  padding: 1px;
 }
 
 .box {
   width: 150px;
   height: 150px;
   border: 1px solid #000;
+  padding: 1px;
+}
+
+$borders: dotted, solid, dashed, double, none;
+
+@each $borderStyle in $borders {
+  .b-#{$borderStyle} {
+    border-style: $borderStyle;
+  }
+}
+
+$spacings: (
+  'xs': 4px,
+  'sm': 8px,
+  'md': 16px,
+  'lg': 32px,
+);
+
+@each $size, $spacing in $spacings {
+  .m-#{$size} {
+    margin: $spacing;
+  }
+}
+
+$paddings: (
+  'xs': 4px,
+  'sm': 8px,
+  'md': 16px,
+  'lg': 32px,
+);
+
+@each $size, $padding in $paddings {
+  .p-#{$size} {
+    padding: $paddings;
+  }
 }

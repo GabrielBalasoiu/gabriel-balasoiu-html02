@@ -6,6 +6,10 @@
   color: blue;
 }
 
+.btn-tertiary {
+  color: green;
+}
+
 .btn-inverted {
   background-color: transparent;
 }
@@ -14,4 +18,12 @@
   background-color: lightgray;
 }
 
+.btn-text-gray {
+  color: gray;
+}
+
+.btn-inverted,
+.btn-text-gray {
+  color: gray;
+}
 /*# sourceMappingURL=style.css.map */

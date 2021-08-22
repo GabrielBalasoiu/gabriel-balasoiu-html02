@@ -1,0 +1,17 @@
+/* Error: ("xs": 4px, "sm": 8px, "md": 16px, "lg": 32px) isn't a valid CSS value.
+ *    ,
+ * 45 |     padding: $paddings;
+ *    |              ^^^^^^^^^
+ *    '
+ *   scss\app.scss 45:14  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: (\"xs\": 4px, \"sm\": 8px, \"md\": 16px, \"lg\": 32px) isn't a valid CSS value.\a    \2577 \a 45 \2502      padding: $paddings;\d\a    \2502               ^^^^^^^^^\a    \2575 \a   scss\\app.scss 45:14  root stylesheet";
+}
